@@ -5,36 +5,36 @@ import SsText from "../../shared/text/text";
 function About() {
     return (
         <>
-            <SsBox bg={"info"} p={4} mx={2} my={2}>
+            <SsBox bg="primary200" p="xl" m="xl">
                 <SsText
                     textAlign="center"
-                    color={"blacks.0"}
-                    fontSize={[0, 1, 2, 3]}
-                    lineHeight={1}
+                    color="white"
+                    fontSize={["xs", "md", "xl"]}
+                    lineHeight="lg"
                 >
                     This is an info box, with responsive typography that changes based on
                     the view port.
                 </SsText>
             </SsBox>
 
-            <SsBox bg={"success"} p={4} mx={2} my={2}>
+            <SsBox bg="success200" p="xl" m="xl">
                 <SsText
                     textAlign="center"
-                    color={"blacks.0"}
-                    fontSize={[0, 1, 2, 3]}
-                    lineHeight={1}
+                    color="white"
+                    fontSize={["xs", "md", "xl"]}
+                    lineHeight="lg"
                 >
                     This is a success box, with responsive typography that changes based on
                     the view port.
                 </SsText>
             </SsBox>
 
-            <SsBox bg={"warning"} p={4} mx={2} my={2}>
+            <SsBox bg="warning100" p="xl" m="xl">
                 <SsText
                     textAlign="center"
-                    color={"blacks.0"}
-                    fontSize={[0, 1, 2, 3]}
-                    lineHeight={1}
+                    color="danger200"
+                    fontSize={["xs", "md", "xl"]}
+                    lineHeight="lg"
                 >
                     This is a warning box, with responsive typography that changes based on
                     the view port.
