@@ -1,8 +1,21 @@
 import styled from "styled-components";
-import { typography, color, TypographyProps, ColorStyleProps } from "styled-system";
+import {
+  typography,
+  color,
+  TypographyProps,
+  LayoutProps,
+  ColorProps,
+  SpaceProps,
+  layout,
+  space
+} from "styled-system";
 
-const SsText = styled.p<TypographyProps & ColorStyleProps>`
+type SsTextProps = LayoutProps & ColorProps & TypographyProps & SpaceProps;
+
+const SsText = styled.p<SsTextProps>`
   ${typography};
+  ${layout};
+  ${space};
   ${color}
 `;
 
