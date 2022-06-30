@@ -1,5 +1,5 @@
 
-const theme = {
+export const defaultTheme = {
     breakpoints: ["450px", "600px", "960px", "1280px", "1920px"],
     fontSizes: {
         0: 0,
@@ -78,4 +78,5 @@ const theme = {
         warning500: "#D35E1A",
     },
 };
-export default theme;
+
+export type AppTheme = typeof defaultTheme;

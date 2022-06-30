@@ -2,7 +2,7 @@ import React from "react";
 import SsBox from "../../shared/box/box";
 import SsText from "../../shared/text/text";
 
-function About() {
+function FontResponsive() {
     return (
         <>
             <SsBox bg="primary200" p="xl" m="xl">
@@ -44,4 +44,4 @@ function About() {
     );
 }
 
-export default About;
+export default FontResponsive;

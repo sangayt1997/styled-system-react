@@ -2,17 +2,17 @@ import React from 'react';
 import './app.scss';
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/home/home";
-import About from "./components/about/about";
+import FontResponsive from "./components/about/font-responsive";
 import { ThemeProvider } from "styled-components";
-import theme from "./theme/theme";
+import { defaultTheme } from "./theme/theme";
 
 function App() {
     return (
         <div className="app">
-            <ThemeProvider theme={theme}>
+            <ThemeProvider theme={defaultTheme}>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="about" element={<About/>}/>
+                    <Route path="font-responsive" element={<FontResponsive/>}/>
                 </Routes>
             </ThemeProvider>
         </div>
