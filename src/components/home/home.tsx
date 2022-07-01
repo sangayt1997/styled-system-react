@@ -11,6 +11,7 @@ function Home() {
             <nav className="home__nav">
                 <Link to="/font-responsive">Font Responsive</Link>
                 <Link to="/variant">Variant</Link>
+                <Link to="/layout">Layout</Link>
             </nav>
         </div>
     );

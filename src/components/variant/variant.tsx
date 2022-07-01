@@ -18,7 +18,7 @@ function Variant() {
                 Hello there
             </SsCard>
 
-            <SsButton variant="secondary">Styled System Button!</SsButton>
+            <SsButton variant="secondary" mr={"md"}>Styled System Button!</SsButton>
             <SsButton mt="md" size="large">
                 Styled System Button!
             </SsButton>

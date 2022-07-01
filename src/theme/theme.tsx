@@ -80,25 +80,25 @@ export const defaultTheme = {
     buttons: {
         primary: {
             color: "white",
-            backgroundColor: "primary200"
+            backgroundColor: "#5650EC"
         },
         secondary: {
             color: "white",
-            backgroundColor: "success200"
+            backgroundColor: "#52B45A"
         },
         danger: {
             color: "white",
-            backgroundColor: "danger200"
+            backgroundColor: "#E02F32"
         }
     },
     buttonSizes: {
         medium: {
-            fontSize: "md",
+            fontSize: "16px",
             padding: "8px 16px",
             borderRadius: "2px"
         },
         large: {
-            fontSize: "xl",
+            fontSize: "18px",
             padding: "12px 24px",
             borderRadius: "6px"
         }
