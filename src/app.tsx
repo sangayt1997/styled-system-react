@@ -6,6 +6,7 @@ import FontResponsive from "./components/font-responsive/font-responsive";
 import { ThemeProvider } from "styled-components";
 import { defaultTheme } from "./theme/theme";
 import Variant from "./components/variant/variant";
+import Layout from "./components/layout/layout";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="font-responsive" element={<FontResponsive/>}/>
                     <Route path="variant" element={<Variant/>}/>
+                    <Route path="layout" element={<Layout/>}/>
                 </Routes>
             </ThemeProvider>
         </div>
