@@ -26,7 +26,7 @@ type BoxOptions = {
     marginEnd?: SpaceProps<AppTheme>["marginLeft"]
 };
 
-type BoxProps = LayoutProps &
+type BoxProps = LayoutProps<AppTheme> &
     ColorProps<AppTheme> &
     TypographyProps<AppTheme> &
     SpaceProps<AppTheme> &

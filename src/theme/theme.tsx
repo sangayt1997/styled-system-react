@@ -77,6 +77,32 @@ export const defaultTheme = {
         warning200: "#F17D39",
         warning500: "#D35E1A",
     },
+    buttons: {
+        primary: {
+            color: "white",
+            backgroundColor: "primary200"
+        },
+        secondary: {
+            color: "white",
+            backgroundColor: "success200"
+        },
+        danger: {
+            color: "white",
+            backgroundColor: "danger200"
+        }
+    },
+    buttonSizes: {
+        medium: {
+            fontSize: "md",
+            padding: "8px 16px",
+            borderRadius: "2px"
+        },
+        large: {
+            fontSize: "xl",
+            padding: "12px 24px",
+            borderRadius: "6px"
+        }
+    }
 };
 
 export type AppTheme = typeof defaultTheme;

@@ -17,6 +17,11 @@ function Variant() {
             <SsCard appearance={["secondary", "primary"]} color="white" fontSize="md" borderRadius={4}>
                 Hello there
             </SsCard>
+
+            <SsButton variant="secondary">Styled System Button!</SsButton>
+            <SsButton mt="md" size="large">
+                Styled System Button!
+            </SsButton>
         </SsBox>
     );
 }
