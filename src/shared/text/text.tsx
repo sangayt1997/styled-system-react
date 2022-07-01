@@ -9,8 +9,9 @@ import {
     layout,
     space, compose
 } from "styled-system";
+import { AppTheme } from "../../theme/theme";
 
-type SsTextProps = LayoutProps & ColorProps & TypographyProps & SpaceProps;
+type SsTextProps = LayoutProps<AppTheme> & ColorProps<AppTheme> & TypographyProps<AppTheme> & SpaceProps<AppTheme>;
 
 const SsText = styled.p<SsTextProps>`
   ${compose(typography, layout, space, color)}

@@ -7,9 +7,10 @@ function Home() {
     return (
         <div className="home">
             <h1 className="home__heading">Welcome to Styled System with react</h1>
-            <SsText color="white" fontSize="xl" fontWeight="900">Click below to see the demo of styled system</SsText>
-            <nav>
+            <SsText color="white" fontSize="xl">Click below to see the demo of styled system</SsText>
+            <nav className="home__nav">
                 <Link to="/font-responsive">Font Responsive</Link>
+                <Link to="/variant">Variant</Link>
             </nav>
         </div>
     );
