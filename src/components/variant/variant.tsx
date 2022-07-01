@@ -1,6 +1,7 @@
 import React from "react";
 import { SsCard } from "../../shared/card/card";
 import SsBox from "../../shared/box/box";
+import SsButton from "../../shared/button/button";
 
 function Variant() {
     return (

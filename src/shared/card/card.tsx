@@ -22,6 +22,8 @@ type BoxVariants = "primary" | "secondary";
 
 type BoxOptions = {
     appearance?: ResponsiveValue<BoxVariants>;
+    marginStart?: SpaceProps<AppTheme>["marginLeft"];
+    marginEnd?: SpaceProps<AppTheme>["marginLeft"]
 };
 
 type BoxProps = LayoutProps &
