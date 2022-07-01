@@ -7,7 +7,13 @@ import {
     TypographyProps,
     SpaceProps,
     compose,
-    layout, color, typography, space, borderRadius, BorderProps
+    layout,
+    color,
+    typography,
+    space,
+    borderRadius,
+    BorderProps,
+    system
 } from "styled-system";
 import { AppTheme } from "../../theme/theme";
 import styled from "styled-components";
@@ -42,9 +48,26 @@ export const SsCard = styled.div<BoxProps>`
         size: "300px"
       },
     },
-  })} 
+  })}
     
-/*This is done so that our styled props can override the variant styles*/ 
+    /*
+    To extend Styled System for other CSS properties that aren't included in the library,
+     use the system utility to create your own style functions.
+     */
+  
+  ${system({
+    marginStart: {
+      property: "marginInlineStart",
+      scale: "space",
+    },
+    marginEnd: {
+      property: "marginInlineEnd",
+      scale: "space",
+    },
+  })}
+    
+    /*This is done so that our styled props can override the variant styles*/ 
+  
   ${compose(layout, color, typography, space, borderRadius)}
 `;
 
