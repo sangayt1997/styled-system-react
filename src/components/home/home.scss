@@ -9,4 +9,11 @@
   &__heading {
     color: white;
   }
+
+  &__nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+  }
 }

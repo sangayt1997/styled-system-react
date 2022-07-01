@@ -1,9 +1,20 @@
 import styled from "styled-components";
-import { typography, color, TypographyProps, ColorStyleProps } from "styled-system";
+import {
+    typography,
+    color,
+    TypographyProps,
+    LayoutProps,
+    ColorProps,
+    SpaceProps,
+    layout,
+    space, compose
+} from "styled-system";
+import { AppTheme } from "../../theme/theme";
 
-const Text = styled.p<TypographyProps & ColorStyleProps>`
-  ${typography};
-  ${color}
+type SsTextProps = LayoutProps<AppTheme> & ColorProps<AppTheme> & TypographyProps<AppTheme> & SpaceProps<AppTheme>;
+
+const SsText = styled.p<SsTextProps>`
+  ${compose(typography, layout, space, color)}
 `;
 
-export default Text;
+export default SsText;
