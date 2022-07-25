@@ -5,12 +5,12 @@ import SsButton from "../../shared/button/button";
 
 function Variant() {
     return (
-        <SsBox p={"md"}>
-            <SsCard color="white" fontSize="md" borderRadius={10} mb={"md"}>
+        <SsBox p={16}>
+            <SsCard color="white" fontSize="md" borderRadius={10} mb={16}>
                 Hello there
             </SsCard>
 
-            <SsCard appearance="secondary" color="white" fontSize="md" borderRadius={10} mb={"md"}>
+            <SsCard appearance="secondary" color="white" fontSize="md" borderRadius={10} mb={16}>
                 Hello there
             </SsCard>
 
@@ -18,8 +18,8 @@ function Variant() {
                 Hello there
             </SsCard>
 
-            <SsButton variant="secondary" mr={"md"}>Styled System Button!</SsButton>
-            <SsButton mt="md" size="large">
+            <SsButton variant="secondary" mr={16}>Styled System Button!</SsButton>
+            <SsButton mt={16} size="large">
                 Styled System Button!
             </SsButton>
         </SsBox>

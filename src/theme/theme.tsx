@@ -9,15 +9,16 @@ export const defaultTheme = {
         lg: "18px",
         xl: "20px",
     },
-
-    space: {
+    /*If you want to specify space based on breakpoint variants*/
+    /*space: {
         xxs: "12px",
         xs: "14px",
         sm: "16px",
         md: "18px",
         lg: "20px",
         xl: "22px",
-    },
+    },*/
+    space: [0, 4, 8, 12, 14, 16, 18, 20, 32, 64, 128, 256, 512],
 
     fontWeights: {
         100: 100,
