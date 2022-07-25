@@ -5,7 +5,7 @@ import SsText from "../../shared/text/text";
 
 function Layout() {
     return (
-        <SsBox m={14}>
+        <SsBox m={6}>
             <SsBox display="flex" justifyContent="space-between" alignItems="center" mb={16}>
                 <SsBox width={1} height={"200px"} bg={"primary100"}>
                     <SsText

@@ -18,7 +18,30 @@ export const defaultTheme = {
         lg: "20px",
         xl: "22px",
     },*/
-    space: [0, 4, 8, 12, 14, 16, 18, 20, 32, 64, 128, 256, 512],
+    space: {
+        0: 0,
+        2: "2px",
+        4: "4px",
+        6: "6px",
+        8: "8px",
+        10: "10px",
+        12: "12px",
+        14: "14px",
+        16: "16px",
+        18: "18px",
+        20: "20px",
+        22: "22px",
+        24: "24px",
+        26: "26px",
+        28: "28px",
+        30: "30px",
+        32: "32px",
+        34: "34px",
+        36: "36px",
+    },
+
+    /*We can use like this also, but it takes some multiple its value*/
+   /* space: [0, 4, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 64],*/
 
     fontWeights: {
         100: 100,
