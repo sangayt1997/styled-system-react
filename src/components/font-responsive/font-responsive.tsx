@@ -5,7 +5,7 @@ import SsText from "../../shared/text/text";
 function FontResponsive() {
     return (
         <>
-            <SsBox bg="primary200" p="xl" m="xl">
+            <SsBox bg="primary200" p={20} m={20}>
                 <SsText
                     textAlign="center"
                     color="white"
@@ -17,7 +17,7 @@ function FontResponsive() {
                 </SsText>
             </SsBox>
 
-            <SsBox bg="success200" p="xl" m="xl">
+            <SsBox bg="success200"  p={20} m={20}>
                 <SsText
                     textAlign="center"
                     color="white"
@@ -29,7 +29,7 @@ function FontResponsive() {
                 </SsText>
             </SsBox>
 
-            <SsBox bg="warning100" p="xl" m="xl">
+            <SsBox bg="warning100" p={20} m={20}>
                 <SsText
                     textAlign="center"
                     color="danger200"

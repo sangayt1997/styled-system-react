@@ -1,4 +1,4 @@
-import React from "react";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {
     variant,
     ResponsiveValue,
@@ -13,7 +13,8 @@ import {
     space,
     borderRadius,
     BorderProps,
-    system
+    flexbox,
+    system, FlexboxProps
 } from "styled-system";
 import { AppTheme } from "../../theme/theme";
 import styled from "styled-components";
@@ -31,6 +32,7 @@ type BoxProps = LayoutProps<AppTheme> &
     TypographyProps<AppTheme> &
     SpaceProps<AppTheme> &
     BorderProps<AppTheme> &
+    FlexboxProps<AppTheme> &
     BoxOptions;
 
 export const SsCard = styled.div<BoxProps>`
@@ -70,7 +72,7 @@ export const SsCard = styled.div<BoxProps>`
     
     /*This is done so that our styled props can override the variant styles*/ 
   
-  ${compose(layout, color, typography, space, borderRadius)}
+  ${compose(layout, color, typography, space, borderRadius, flexbox)}
 `;
 
 SsCard.defaultProps = {
