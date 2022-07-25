@@ -5,7 +5,7 @@ import SsText from "../../shared/text/text";
 
 function Layout() {
     return (
-        <SsBox m={6}>
+        <SsBox p={[8, 12, 16]}>
             <SsBox display="flex" justifyContent="space-between" alignItems="center" mb={16}>
                 <SsBox width={1} height={"200px"} bg={"primary100"}>
                     <SsText
@@ -140,7 +140,7 @@ function Layout() {
                 <SsBox width={[
                     1,    // 100% below the smallest breakpoint
                     1,  // 100% from the next breakpoint and up
-                    1 / 4   // 25% from the next breakpoint and up
+                    1 / 3   // 33.33% from the next breakpoint and up
                 ]} height={"200px"} bg={"success100"}>
                     <SsText
                         textAlign="center"
@@ -154,7 +154,7 @@ function Layout() {
                 <SsBox width={[
                     1,    // 100% below the smallest breakpoint
                     1,  // 100% from the next breakpoint and up
-                    1 / 4   // 25% from the next breakpoint and up
+                    1 / 3   // 33.33% from the next breakpoint and up
                 ]} height={"200px"} bg={"warning100"}>
                     <SsText
                         textAlign="center"
@@ -168,7 +168,7 @@ function Layout() {
                 <SsBox width={[
                     1,    // 100% below the smallest breakpoint
                     1,  // 100% from the next breakpoint and up
-                    1 / 4   // 25% from the next breakpoint and up
+                    1 / 3   // 33.33% from the next breakpoint and up
                 ]} height={"200px"} bg={"danger100"}>
                     <SsText
                         textAlign="center"
