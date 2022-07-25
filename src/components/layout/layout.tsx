@@ -80,7 +80,7 @@ function Layout() {
                         fontSize={["xs", "md", "xl"]}
                         lineHeight="lg"
                     >
-                        width 24%
+                        width 25%
                     </SsText>
                 </SsBox>
                 <SsBox width={1 / 4} height={"200px"} bg={"success100"}>
@@ -90,7 +90,7 @@ function Layout() {
                         fontSize={["xs", "md", "xl"]}
                         lineHeight="lg"
                     >
-                        width 24%
+                        width 25%
                     </SsText>
                 </SsBox>
                 <SsBox width={1 / 4} height={"200px"} bg={"warning100"}>
@@ -100,7 +100,7 @@ function Layout() {
                         fontSize={["xs", "md", "xl"]}
                         lineHeight="lg"
                     >
-                        width 24%
+                        width 25%
                     </SsText>
                 </SsBox>
                 <SsBox width={1 / 4} height={"200px"} bg={"danger100"}>
@@ -110,7 +110,7 @@ function Layout() {
                         fontSize={["xs", "md", "xl"]}
                         lineHeight="lg"
                     >
-                        width 24%
+                        width 25%
                     </SsText>
                 </SsBox>
             </SsBox>
