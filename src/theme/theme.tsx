@@ -1,6 +1,5 @@
-
 export const defaultTheme = {
-    breakpoints: ["450px", "600px", "960px", "1280px", "1920px"],
+    breakpoints: ["599px", "959px", "1279px", "1919px"],
     fontSizes: {
         0: 0,
         xs: "12px",
@@ -40,8 +39,8 @@ export const defaultTheme = {
         36: "36px",
     },
 
-    /*We can use like this also, but it takes some multiple its value*/
-   /* space: [0, 4, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 64],*/
+    /*We can use like this also, but it takes "dafaultTheme.space[index]" */
+    /* space: [0, 4, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 64],*/
 
     fontWeights: {
         100: 100,
