@@ -15,5 +15,10 @@
     width: 30%;
     justify-content: space-around;
     align-items: center;
+
+    &-link {
+      text-decoration: none;
+      font-weight: bold;
+    }
   }
 }
