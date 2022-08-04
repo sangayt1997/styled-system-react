@@ -4,14 +4,32 @@ import "./home.scss";
 import SsText from "../../shared/text/text";
 
 function Home() {
+    const routes = [
+        {
+            route: "/font-responsive",
+            label: "Font Responsive"
+        },
+        {
+            route: "/variant",
+            label: "Variant"
+        },
+        {
+            route: "/layout",
+            label: "Layout"
+        },
+    ]
     return (
         <div className="home">
             <h1 className="home__heading">Welcome to Styled System with react</h1>
             <SsText color="white" fontSize="xl">Click below to see the demo of styled system</SsText>
             <nav className="home__nav">
-                <Link to="/font-responsive">Font Responsive</Link>
-                <Link to="/variant">Variant</Link>
-                <Link to="/layout">Layout</Link>
+                {
+                    routes.map(
+                        routes =>
+                            <Link to={routes.route} className="home__nav-link">{routes.label}</Link>
+                    )
+                }
+
             </nav>
         </div>
     );
